@@ -2,13 +2,13 @@
 import React from 'react';
 
 
-const bizName = 'eCommerce';
+const projName = 'ToDoList-React';
 
 
 function MyHeader() {
   return (
-    <header>
-      <h1 className='centered' >{bizName}</h1>
+    <header className='p-4 mx-1 my-1 bg-gray-200'>
+      <h1 className='text-5xl font-semibold' >{projName}</h1>
     </header>
   );
 }
