@@ -3,14 +3,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import MyHeader from './components/MyHeader'; // Ensure this matches the component name
+import MyHeader from './components/MyHeader'; 
+import MyFooter from './components/MyFooter';
+import GameShowCase from './components/GameShowcase';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MyHeader /> {/* Ensure this matches the component name */}
+    <MyHeader /> 
     <App />
+    <GameShowCase/>
+    <MyFooter />
   </React.StrictMode>
 );
 
