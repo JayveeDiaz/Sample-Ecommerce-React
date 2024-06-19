@@ -6,7 +6,7 @@ import Content from './components/Content';
 
 export default function App() {
   return (
-    <div className='m-0 p-0'>
+    <div className='m-0 p-0 '>
        <MyHeader /> 
 
        <div class="m-auto w-1">

@@ -7,9 +7,13 @@ const projName = 'ToDoList-React';
 
 function MyHeader() {
   return (
-    <header className='p-4 mx-1 my-1 bg-gray-200'>
-      <h1 className='text-5xl font-semibold' >{projName}</h1>
-    </header>
+
+<div>
+<header className="p-4 bg-gray-200 inset-x-0 top-0">
+  <h1 className="text-5xl font-semibold">{projName}</h1>
+</header>
+</div>
+
   );
 }
 
